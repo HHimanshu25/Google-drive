@@ -170,6 +170,7 @@ aside{
 }
 .add{
     /* height: 56px;*/
+    cursor: pointer;
     width: 70px; 
     padding: 15px;
     font-size: 18px;
@@ -179,6 +180,10 @@ aside{
     border-radius: 15px;
     margin-left: 20px;
     
+}
+.add a{
+    text-decoration: none;
+    color: black;
 }
 .more{
     background-color: transparent;
