@@ -42,20 +42,20 @@
     </nav>
     <aside>
         <div class="add"><button id="page">+ New</button>
-             <div id="add-page">
-        <div class="first"><span><img src="assent/create.png" alt="">New folder</span><span>Alt=C then F</span></div>
-        <hr>
-        <div class="second"><span><img src="assent/upload file.png" alt="">File upload</span><span>Alt+C then U</span>
-        </div>
-        <div class="third"><span><img src="assent/upload folder.png" alt="">Folder upload</span><span>Alt+C then
-                I</span></div>
-        <hr>
-        <div class="forth"><span><img src="assent/docs.png" alt="">Google Docs</span><span></span></div>
-        <div class="fifth"><span>Google Sheets</span></div>
-        <div class="six"><span>Google Slides</span></div>
-        <div class="seven"><span>Google Forms</span></div>
-        <div class="eight"><span>More</span></div>
-    </div>
+            <div class="add-page add-page2">
+                <div class="first"><span><img src="assent/create.png" alt="">New folder</span><span>Alt=C then F</span>
+                </div>
+                <hr>
+                <div class="second"><span><img src="assent/upload file.png" alt="">File upload</span><span>Alt+C then U</span>
+                </div><input type="file" style="display:none;">
+                <div class="third"><span><img src="assent/upload folder.png" alt="">Folder upload</span><span>Alt+C thenI</span></div>
+                <hr>
+                <div class="forth"><span><img src="assent/docs.png" alt="">Google Docs</span><span></span></div>
+                <div class="fifth"><span>Google Sheets</span></div>
+                <div class="six"><span>Google Slides</span></div>
+                <div class="seven"><span>Google Forms</span></div>
+                <div class="eight"><span>More</span></div>
+            </div>
 
         </div>
         <ul class="firs">
@@ -69,17 +69,15 @@
             <li><img src="assent/star.png">Starred</li>
         </ul>
         <ul class="thir">
-            <li><img src="assent/spam.png">Spam</li> 
+            <li><img src="assent/spam.png">Spam</li>
             <li><img src="assent/trash.png">Trash</li>
             <li><img src="assent/store.png">Storage</li>
         </ul>
         <button class="more">Get more Storage</button>
     </aside>
-    
+
     <script>
-     document.getElementById("page").addEventListener("click", function () {
-  document.getElementById("add-page").style.display = "block";
-});
+        
 
     </script>
 </body>
