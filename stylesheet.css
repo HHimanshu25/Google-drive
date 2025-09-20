@@ -267,9 +267,9 @@ aside {
     }
 }
 
-/* .add:hover #add-page {
+.add:hover #add-page {
             display: block;
-        } */
+        }
 
 .add-page2 {
     display: block;
